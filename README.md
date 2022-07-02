@@ -1,15 +1,18 @@
-### Hi there 👋
+### Automated Test Integration Examples for Headlamp
 
 Headlamp is the tool you use to visually track your Web UI testing and find gaps in your manual and automated tests.
+
+Read more about Headlamp [here](https://headlamptest.com)
+Install Headlamp [here](https://chrome.google.com/webstore/detail/headlamp/bmknfgijehendonfbfcfkhbaijhbbnle)
 
 This is the repository of all support-related goodies that you might find helpful.
 
 First in: an automated test example using Microsoft Visual Studio, C#, MSTest, and the Selenium ChromeDriver. You'll want to look this over before you try to integrate Headlamp into your test automation.
 
-We welcome contributions! Have you had success in using Headlamp in your test automation on non-Windows platforms, or with other Chrome browser test frameworks? Please share!
+We welcome contributions! Have you got Headlamp working on Mac or Linux, or with other test automation frameworks or platforms? **Please share!**
 
 
-- 📫 How to reach us: support@headlamptest.com
+📫 How to reach us: support@headlamptest.com
 
 
 <!--
