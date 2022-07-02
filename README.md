@@ -2,8 +2,8 @@
 
 Headlamp is the tool you use to visually track your Web UI testing and find gaps in your manual and automated tests.
 
-Read more about Headlamp [here](https://headlamptest.com)
-Install Headlamp [here](https://chrome.google.com/webstore/detail/headlamp/bmknfgijehendonfbfcfkhbaijhbbnle)
+- Read more about Headlamp [here](https://headlamptest.com)
+- Install Headlamp [here](https://chrome.google.com/webstore/detail/headlamp/bmknfgijehendonfbfcfkhbaijhbbnle)
 
 This is the repository of all support-related goodies that you might find helpful.
 
