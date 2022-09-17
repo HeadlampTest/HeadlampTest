@@ -1,7 +1,8 @@
 // This is a sample Microsoft Test for Visual Studio using the Selenium browser test tool. 
-// REQUIRED: ADD YOUR EMAIL ADDRESS
 
-// Requires NuGet package "Selenium.WebDriver"
+// REQUIRED: ADD YOUR EMAIL ADDRESS - see below
+// REQUIRED NuGet package "Selenium.WebDriver"
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -12,7 +13,6 @@ namespace HeadlampSeleniumTest
     [TestClass]
     public class Home
     {
-        // [REQUIRED] Add "automatedby" with your email address to the query string
         private static readonly string MyEmailAddress = ""; // <== Put your email address here
         private static readonly string TestUrl = "https://headlamptest.com/TestPage.html?headlamp-automatedby=" + MyEmailAddress;
         private static IWebDriver Driver;
