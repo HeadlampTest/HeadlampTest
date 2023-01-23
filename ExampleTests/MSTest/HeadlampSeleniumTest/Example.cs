@@ -15,7 +15,7 @@ namespace HeadlampSeleniumTest
     [TestClass]
     public class Home
     {
-        private static readonly string MyEmailAddress = ""; // <== Put your email address here
+        private static readonly string MyEmailAddress = "dgarson425@gmail.com"; // <== Put your email address here
         private static readonly string TestUrl = "https://headlamptest.com/test?headlamp-automatedby=" + MyEmailAddress;
         private static IWebDriver Driver;
 
@@ -41,7 +41,7 @@ namespace HeadlampSeleniumTest
             Driver.Navigate().GoToUrl(TestUrl + "&headlamp-reset=1");
 
             // Wait for Reset to complete.
-            Thread.Sleep(5000);
+            Thread.Sleep(5000); // NOTE: OK, I'm not sure about this Sleep. Do we still need this with the latest Headlamp?
         }
 
         [TestCleanup]
@@ -58,18 +58,17 @@ namespace HeadlampSeleniumTest
         {
             // Fill in the test form
 
-            // This is a demo. Make sure the human can see what's happening.
-            Thread.Sleep(2000);
+            Thread.Sleep(2000); // This is a demo, so we are using lots of Sleeps to make sure the humans can see what's happening when it runs.
 
             // First Name
             Driver.FindElement(By.Id("fname")).SendKeys("Watch");
 
-            Thread.Sleep(2000);
+            Thread.Sleep(2000); // Going VERY slowly so the humans can see what's happening.
             
             // Last Name
             Driver.FindElement(By.Id("lname")).SendKeys("this...");
 
-            Thread.Sleep(2000);
+            Thread.Sleep(2000); // Going VERY slowly so the humans can see what's happening.
 
             // Submit the form data
             Driver.FindElement(By.Id("save")).Click();
